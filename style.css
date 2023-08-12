@@ -1,0 +1,183 @@
+body {
+    display: flex;
+    justify-content: center
+}
+
+.contenedor {
+    width: 700px;
+    height: 800px;
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: repeat(3, 33.333%);
+    grid-row-end: 5;
+    border: solid 2px black;
+}
+
+.imagen1 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    border-bottom: 3px solid #CAC9CE;
+    border-image-slice: 2;
+    background-color: #1C1D21;
+    color: #DDDBDE;
+}
+
+.nombre {
+    margin-left: 25px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 25px;
+    font-style: italic;
+}
+
+.img {
+    margin-left: 35px;
+    width: 130px;
+    height: 150px;
+    border-radius: 50%;
+    border: solid 3px #CAC9CE;
+}
+
+
+.contacto {
+    display: flex;
+    flex-direction: column;
+    background-color: #1C1D21;
+    justify-content: center;
+}
+
+.contacto2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 17px;
+    margin-left: 20px;
+    border: 2px solid #DDDBDE;
+    border-radius: 15px;
+    width: 120px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    background-color: #E04644;
+
+}
+
+h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+    border: 2px solid #1C1D21;
+    border-radius: 15px;
+    width: 127px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    background-color: #E04644;
+    color: #DDDBDE;
+}
+
+.contacto3 {
+    margin: 3px;
+    font-size: 20px;
+    margin-left: 20px;
+    color: #DDDBDE;
+}
+
+.intereses {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 20px;
+    background-color: #DDDBDE;
+}
+
+.intereses3 {
+    margin-left: 20px;
+    padding-right: 10px;
+}
+
+.educacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #DDDBDE;
+    font-size: 20px;
+}
+
+.educacion2 {
+    margin-left: 20px;
+}
+
+.experiencia {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #DDDBDE;
+    font-size: 20px;
+}
+
+.experiencia2 {
+    margin-left: 20px;
+}
+
+
+.habilidades {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #1C1D21;
+
+
+}
+
+#habilidades2 {
+    font-size: 16px;
+    border: 2px solid #DDDBDE;
+    border-radius: 15px;
+    width: 325px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #E04644;
+    color: black;
+}
+
+
+.barracont {
+    display: flex;
+    align-items: center;
+    margin-bottom: 7px;
+    margin-left: 20px;
+}
+
+
+.barraprogres {
+    width: 200px;
+    height: 14px;
+    background-color: #DDDBDE;
+    border: solid 2px #DDDBDE;
+    border-radius: 9px;
+    overflow: hidden;
+    margin-left: 10px;
+}
+
+.barra {
+    width: 90%;
+    height: 85%;
+    background: linear-gradient(to right, #E04644, white, #1C1D21);
+    border-radius: 7.5px;
+    border: solid 1px black;
+
+}
+
+.icon {
+    font-size: 24px;
+    color: #DDDBDE;
+}
